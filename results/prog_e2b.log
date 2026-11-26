@@ -1,0 +1,43 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/1951 [00:00<?, ?it/s]Loading weights:  14%|█▍        | 274/1951 [00:00<00:00, 2737.12it/s]Loading weights:  28%|██▊       | 548/1951 [00:00<00:00, 2673.45it/s]Loading weights:  42%|████▏     | 816/1951 [00:01<00:03, 359.34it/s] Loading weights:  50%|████▉     | 970/1951 [00:01<00:02, 422.16it/s]Loading weights:  56%|█████▌    | 1095/1951 [00:02<00:01, 437.73it/s]Loading weights:  61%|██████    | 1193/1951 [00:02<00:01, 431.85it/s]Loading weights:  65%|██████▌   | 1272/1951 [00:02<00:01, 422.67it/s]Loading weights:  75%|███████▍  | 1462/1951 [00:02<00:00, 614.25it/s]Loading weights:  92%|█████████▏| 1789/1951 [00:02<00:00, 1029.49it/s]Loading weights: 100%|██████████| 1951/1951 [00:02<00:00, 677.60it/s] 
+[  0.8m] loaded google/gemma-4-E2B-it e2b
+[  1.0m] BASE n+3 {'explicit_seen': 0.88, 'explicit_new': 1.0, 'definition_new': 0.87, 'fewshot_new': 0.49}
+[  1.2m] BASE n-7 {'explicit_seen': 0.83, 'explicit_new': 1.0, 'definition_new': 0.98, 'fewshot_new': 0.06}
+[  1.5m] BASE n-0.25 {'explicit_seen': 0.77, 'explicit_new': 1.0, 'definition_new': 0.98, 'fewshot_new': 0.82}
+[  1.7m] BASE n*3 {'explicit_seen': 0.86, 'explicit_new': 1.0, 'definition_new': 1.0, 'fewshot_new': 0.12}
+[  2.0m] BASE 2n+1 {'explicit_seen': 0.66, 'explicit_new': 0.99, 'definition_new': 0.81, 'fewshot_new': 0.04}
+[  2.2m] BASE 100-n {'explicit_seen': 0.88, 'explicit_new': 1.0, 'definition_new': 1.0, 'fewshot_new': 0.03}
+[  2.4m] BASE n^2 {'explicit_seen': 0.84, 'explicit_new': 1.0, 'definition_new': 0.97, 'fewshot_new': 0.84}
+[  2.7m] BASE reverse {'explicit_seen': 0.72, 'explicit_new': 0.99, 'definition_new': 0.94, 'fewshot_new': 0.02}
+[  2.7m] BASE secret1 {'fewshot_new': 0.02}
+[  3.6m] RUN n+3|both|0 loss 0.000 train 1.00 held 1.00 newfmt 0.99 [1.0, 1.0, 0.97]
+[  4.4m] RUN n-7|both|0 loss 0.000 train 1.00 held 1.00 newfmt 1.00 [1.0, 1.0, 1.0]
+[  5.3m] RUN n-0.25|both|0 loss 0.000 train 1.00 held 1.00 newfmt 0.87 [1.0, 1.0, 0.6]
+[  6.2m] RUN n*3|both|0 loss 0.000 train 1.00 held 1.00 newfmt 0.92 [1.0, 0.77, 1.0]
+[  7.0m] RUN 2n+1|both|0 loss 0.000 train 1.00 held 1.00 newfmt 0.98 [1.0, 1.0, 0.93]
+[  7.9m] RUN 100-n|both|0 loss 0.001 train 1.00 held 0.99 newfmt 0.24 [0.0, 0.0, 0.73]
+[  8.8m] RUN n^2|both|0 loss 0.951 train 1.00 held 0.82 newfmt 0.71 [0.93, 1.0, 0.2]
+[  9.6m] RUN reverse|both|0 loss 0.032 train 1.00 held 0.91 newfmt 0.47 [0.3, 1.0, 0.1]
+[ 10.5m] RUN secret1|both|0 loss 1.151 train 0.03 held 0.00 newfmt 0.00 [0.0, 0.0, 0.0]
+[ 11.4m] RUN n+3|both|1 loss 0.000 train 1.00 held 1.00 newfmt 0.61 [0.83, 1.0, 0.0]
+[ 12.2m] RUN n-7|both|1 loss 0.000 train 1.00 held 1.00 newfmt 0.67 [1.0, 1.0, 0.0]
+[ 13.1m] RUN n-0.25|both|1 loss 0.000 train 1.00 held 1.00 newfmt 0.96 [1.0, 1.0, 0.87]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/1951 [00:00<?, ?it/s]Loading weights:  15%|█▍        | 288/1951 [00:00<00:00, 2874.15it/s]Loading weights:  30%|██▉       | 576/1951 [00:00<00:00, 2669.16it/s]Loading weights:  43%|████▎     | 844/1951 [00:01<00:03, 363.43it/s] Loading weights:  51%|█████     | 998/1951 [00:01<00:02, 427.67it/s]Loading weights:  58%|█████▊    | 1125/1951 [00:02<00:01, 430.79it/s]Loading weights:  63%|██████▎   | 1222/1951 [00:02<00:01, 428.46it/s]Loading weights:  67%|██████▋   | 1300/1951 [00:02<00:01, 429.91it/s]Loading weights:  82%|████████▏ | 1604/1951 [00:02<00:00, 771.63it/s]Loading weights:  99%|█████████▉| 1935/1951 [00:02<00:00, 1171.57it/s]Loading weights: 100%|██████████| 1951/1951 [00:02<00:00, 682.37it/s] 
+[  0.9m] loaded google/gemma-4-E2B-it e2b
+[  1.7m] RUN n*3|both|1 loss 0.000 train 1.00 held 1.00 newfmt 0.99 [1.0, 0.97, 1.0]
+[  2.6m] RUN 2n+1|both|1 loss 0.000 train 1.00 held 1.00 newfmt 0.67 [1.0, 1.0, 0.0]
+[  3.5m] RUN 100-n|both|1 loss 0.000 train 1.00 held 0.98 newfmt 1.00 [1.0, 1.0, 1.0]
+[  4.3m] RUN n^2|both|1 loss 0.000 train 1.00 held 1.00 newfmt 0.86 [1.0, 1.0, 0.57]
+[  5.2m] RUN reverse|both|1 loss 0.000 train 1.00 held 1.00 newfmt 1.00 [1.0, 1.0, 1.0]
+[  6.1m] RUN secret1|both|1 loss 1.056 train 0.00 held 0.00 newfmt 0.01 [0.03, 0.0, 0.0]
+[  6.9m] RUN n+3|both|2 loss 0.000 train 1.00 held 1.00 newfmt 1.00 [1.0, 1.0, 1.0]
+[  7.8m] RUN n-7|both|2 loss 0.000 train 1.00 held 1.00 newfmt 0.59 [0.33, 0.87, 0.57]
+[  8.7m] RUN n-0.25|both|2 loss 0.000 train 1.00 held 1.00 newfmt 0.49 [0.83, 0.6, 0.03]
+[  9.5m] RUN n*3|both|2 loss 0.000 train 1.00 held 0.99 newfmt 1.00 [1.0, 1.0, 1.0]
+[ 10.4m] RUN 2n+1|both|2 loss 0.000 train 1.00 held 1.00 newfmt 0.46 [0.3, 1.0, 0.07]
+[ 11.2m] RUN 100-n|both|2 loss 0.000 train 1.00 held 0.98 newfmt 1.00 [1.0, 1.0, 1.0]
+[ 12.1m] RUN n^2|both|2 loss 0.000 train 1.00 held 1.00 newfmt 1.00 [1.0, 1.0, 1.0]
+[ 13.0m] RUN reverse|both|2 loss 0.324 train 1.00 held 0.74 newfmt 0.66 [0.1, 1.0, 0.87]
+[ 13.9m] RUN secret1|both|2 loss 1.138 train 0.00 held 0.00 newfmt 0.03 [0.03, 0.0, 0.07]
+[ 13.9m] ALL DONE

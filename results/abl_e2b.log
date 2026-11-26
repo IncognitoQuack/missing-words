@@ -1,0 +1,37 @@
+Loading weights:   0%|          | 0/1951 [00:00<?, ?it/s]Loading weights:  16%|█▌        | 308/1951 [00:00<00:00, 3062.57it/s]Loading weights:  32%|███▏      | 615/1951 [00:00<00:00, 2835.99it/s]Loading weights:  46%|████▌     | 900/1951 [00:01<00:02, 369.74it/s] Loading weights:  54%|█████▍    | 1063/1951 [00:02<00:02, 413.04it/s]Loading weights:  61%|██████    | 1186/1951 [00:02<00:01, 409.21it/s]Loading weights:  66%|██████▌   | 1279/1951 [00:02<00:01, 410.07it/s]Loading weights:  77%|███████▋  | 1507/1951 [00:02<00:00, 612.21it/s]Loading weights:  92%|█████████▏| 1803/1951 [00:02<00:00, 926.52it/s]Loading weights: 100%|██████████| 1951/1951 [00:02<00:00, 672.13it/s]
+[  0.2m] model.language_model.embed_tokens (262144, 1536) scale 39.25
+[  0.2m] model.language_model.embed_tokens_per_layer (262144, 8960) scale 16.0
+[  0.2m] loaded google/gemma-4-E2B-it GPU GB 10.2
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[  0.8m] shared 60
+[  2.8m] orig
+[  4.8m] mean
+[  6.8m] mean_lower
+[  8.8m] mean_upper
+[ 10.8m] perm
+[ 12.8m] zero
+[ 12.8m] eng_Latn nll/tok 5.085 mean +1.069/tok (21%) mean_lower +0.404/tok (8%) mean_upper +0.468/tok (9%) perm +1.613/tok (32%) zero +3.751/tok (74%)
+[ 12.8m] fra_Latn nll/tok 4.389 mean +1.866/tok (43%) mean_lower +0.154/tok (4%) mean_upper +1.335/tok (30%) perm +2.625/tok (60%) zero +3.240/tok (74%)
+[ 12.8m] deu_Latn nll/tok 4.748 mean +2.159/tok (45%) mean_lower +0.263/tok (6%) mean_upper +1.483/tok (31%) perm +3.098/tok (65%) zero +4.334/tok (91%)
+[ 12.8m] spa_Latn nll/tok 5.085 mean +1.555/tok (31%) mean_lower +0.117/tok (2%) mean_upper +1.042/tok (20%) perm +2.056/tok (40%) zero +3.238/tok (64%)
+[ 12.8m] vie_Latn nll/tok 4.679 mean +2.060/tok (44%) mean_lower +0.446/tok (10%) mean_upper +1.605/tok (34%) perm +2.869/tok (61%) zero +3.755/tok (80%)
+[ 12.8m] swh_Latn nll/tok 4.814 mean +1.754/tok (36%) mean_lower +0.386/tok (8%) mean_upper +1.390/tok (29%) perm +2.750/tok (57%) zero +2.865/tok (60%)
+[ 12.8m] yor_Latn nll/tok 5.259 mean +1.246/tok (24%) mean_lower +0.687/tok (13%) mean_upper +0.960/tok (18%) perm +1.640/tok (31%) zero +2.386/tok (45%)
+[ 12.8m] hin_Latn nll/tok 5.557 mean +1.192/tok (21%) mean_lower +0.373/tok (7%) mean_upper +0.590/tok (11%) perm +1.760/tok (32%) zero +1.706/tok (31%)
+[ 12.8m] rus_Cyrl nll/tok 4.637 mean +1.831/tok (39%) mean_lower +0.260/tok (6%) mean_upper +1.361/tok (29%) perm +2.925/tok (63%) zero +3.296/tok (71%)
+[ 12.8m] arb_Arab nll/tok 4.748 mean +1.800/tok (38%) mean_lower +0.207/tok (4%) mean_upper +1.288/tok (27%) perm +2.779/tok (59%) zero +3.954/tok (83%)
+[ 12.8m] urd_Arab nll/tok 5.328 mean +2.359/tok (44%) mean_lower +0.879/tok (16%) mean_upper +1.143/tok (21%) perm +3.531/tok (66%) zero +3.004/tok (56%)
+[ 12.8m] zho_Hans nll/tok 5.373 mean +1.528/tok (28%) mean_lower +0.007/tok (0%) mean_upper +1.151/tok (21%) perm +2.092/tok (39%) zero +2.558/tok (48%)
+[ 12.8m] jpn_Jpan nll/tok 4.929 mean +1.690/tok (34%) mean_lower +0.067/tok (1%) mean_upper +1.367/tok (28%) perm +2.444/tok (50%) zero +2.812/tok (57%)
+[ 12.8m] kor_Hang nll/tok 4.773 mean +1.562/tok (33%) mean_lower +0.041/tok (1%) mean_upper +1.234/tok (26%) perm +2.327/tok (49%) zero +3.265/tok (68%)
+[ 12.8m] tha_Thai nll/tok 4.148 mean +2.254/tok (54%) mean_lower +0.451/tok (11%) mean_upper +1.803/tok (43%) perm +3.047/tok (73%) zero +3.850/tok (93%)
+[ 12.8m] hin_Deva nll/tok 5.067 mean +1.557/tok (31%) mean_lower +0.305/tok (6%) mean_upper +0.831/tok (16%) perm +2.331/tok (46%) zero +2.081/tok (41%)
+[ 12.8m] mar_Deva nll/tok 5.863 mean +2.639/tok (45%) mean_lower +1.013/tok (17%) mean_upper +1.493/tok (25%) perm +3.613/tok (62%) zero +3.636/tok (62%)
+[ 12.8m] ben_Beng nll/tok 6.407 mean +1.857/tok (29%) mean_lower +0.443/tok (7%) mean_upper +1.023/tok (16%) perm +3.225/tok (50%) zero +2.226/tok (35%)
+[ 12.8m] tam_Taml nll/tok 5.639 mean +3.201/tok (57%) mean_lower +1.439/tok (26%) mean_upper +1.735/tok (31%) perm +4.634/tok (82%) zero +3.844/tok (68%)
+[ 12.8m] tel_Telu nll/tok 4.734 mean +3.479/tok (73%) mean_lower +1.720/tok (36%) mean_upper +1.668/tok (35%) perm +5.070/tok (107%) zero +4.249/tok (90%)
+[ 12.8m] guj_Gujr nll/tok 4.688 mean +4.004/tok (85%) mean_lower +2.220/tok (47%) mean_upper +1.532/tok (33%) perm +4.968/tok (106%) zero +4.290/tok (91%)
+[ 12.8m] pan_Guru nll/tok 3.769 mean +2.585/tok (69%) mean_lower +1.207/tok (32%) mean_upper +1.354/tok (36%) perm +3.799/tok (101%) zero +2.517/tok (67%)
+[ 12.8m] mal_Mlym nll/tok 4.598 mean +4.173/tok (91%) mean_lower +2.322/tok (50%) mean_upper +1.717/tok (37%) perm +5.870/tok (128%) zero +4.978/tok (108%)
+[ 12.8m] kan_Knda nll/tok 4.494 mean +4.719/tok (105%) mean_lower +3.167/tok (70%) mean_upper +1.656/tok (37%) perm +5.734/tok (128%) zero +5.016/tok (112%)
+[ 12.8m] ALL DONE

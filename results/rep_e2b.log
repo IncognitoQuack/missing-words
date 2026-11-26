@@ -1,0 +1,22 @@
+Loading weights:   0%|          | 0/1951 [00:00<?, ?it/s]Loading weights:  15%|█▌        | 302/1951 [00:00<00:00, 3010.03it/s]Loading weights:  31%|███       | 604/1951 [00:00<00:00, 2858.33it/s]Loading weights:  46%|████▌     | 891/1951 [00:01<00:02, 370.73it/s] Loading weights:  54%|█████▍    | 1055/1951 [00:02<00:02, 415.42it/s]Loading weights:  60%|██████    | 1179/1951 [00:02<00:01, 413.91it/s]Loading weights:  65%|██████▌   | 1273/1951 [00:02<00:01, 410.20it/s]Loading weights:  75%|███████▌  | 1471/1951 [00:02<00:00, 579.75it/s]Loading weights:  93%|█████████▎| 1814/1951 [00:02<00:00, 961.21it/s]Loading weights: 100%|██████████| 1951/1951 [00:02<00:00, 678.17it/s]
+[  0.2m] model.language_model.embed_tokens (262144, 1536) scale 39.25
+[  0.2m] model.language_model.embed_tokens_per_layer (262144, 8960) scale 16.0
+[  0.2m] loaded google/gemma-4-E2B-it GPU GB 10.2
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+/content/repair.py:183: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:820.)
+  if s%40==0: log(which,s,'loss',round(float(l)*acc,4),f'{time.time()-t:.0f}s')
+[  0.9m] ple 40 loss 2.0256 18s
+[  1.2m] ple 80 loss 0.7561 36s
+[  1.5m] ple 120 loss 0.6173 55s
+[  1.8m] ple 160 loss 0.4664 73s
+[  2.1m] ple 200 loss 0.2645 91s
+[  2.4m] ple 240 loss 0.5686 109s
+[  3.1m] DONE row_ple_keep_2 [226, 288] {'romanised': [18, 48], 'kg_to_g': [25, 27], 'hours_to_min': [19, 29], 'clock': [24, 32], 'lang_mr': [18, 24], 'lang_gu': [18, 24], 'lang_bn': [16, 24], 'lang_ur': [8, 24], 'lang_pa': [16, 24], 'hours_to_min_heldN': [3, 12], 'kg_to_g_heldN': [11, 12], 'idioms_no_harm': [3, 10]} {'max_abs_logprob': 0.0}
+/usr/local/lib/python3.13/dist-packages/peft/import_utils.py:195: UserWarning: Found an incompatible version of torchao. Found version 0.10.0, but only versions above 0.16.0 are supported. torchao support in PEFT is disabled; if you want to use a torchao-quantized model with PEFT, please upgrade torchao.
+  warnings.warn(
+[  5.9m] DONE lora_0 [273, 288] {'romanised': [4, 48], 'kg_to_g': [24, 27], 'hours_to_min': [2, 29], 'clock': [31, 32], 'lang_mr': [5, 24], 'lang_gu': [5, 24], 'lang_bn': [8, 24], 'lang_ur': [7, 24], 'lang_pa': [0, 24], 'hours_to_min_heldN': [0, 12], 'kg_to_g_heldN': [10, 12], 'idioms_no_harm': [6, 10]} {'outputs_changed': [69, 85], 'kl_mean': 0.10048262821876877, 'kl_max': 1.7687830924987793}
+[  9.5m] DONE lora_keep_0 [272, 288] {'romanised': [7, 48], 'kg_to_g': [27, 27], 'hours_to_min': [24, 29], 'clock': [27, 32], 'lang_mr': [7, 24], 'lang_gu': [3, 24], 'lang_bn': [9, 24], 'lang_ur': [9, 24], 'lang_pa': [0, 24], 'hours_to_min_heldN': [7, 12], 'kg_to_g_heldN': [12, 12], 'idioms_no_harm': [3, 10]} {'outputs_changed': [80, 85], 'kl_mean': 0.24707408655889454, 'kl_max': 4.3429274559021}
+[ 12.3m] DONE lora_1 [270, 288] {'romanised': [3, 48], 'kg_to_g': [19, 27], 'hours_to_min': [2, 29], 'clock': [30, 32], 'lang_mr': [5, 24], 'lang_gu': [5, 24], 'lang_bn': [9, 24], 'lang_ur': [6, 24], 'lang_pa': [0, 24], 'hours_to_min_heldN': [1, 12], 'kg_to_g_heldN': [9, 12], 'idioms_no_harm': [6, 10]} {'outputs_changed': [62, 85], 'kl_mean': 0.08003239812407832, 'kl_max': 1.4979186058044434}
+[ 15.9m] DONE lora_keep_1 [283, 288] {'romanised': [6, 48], 'kg_to_g': [27, 27], 'hours_to_min': [23, 29], 'clock': [31, 32], 'lang_mr': [5, 24], 'lang_gu': [3, 24], 'lang_bn': [10, 24], 'lang_ur': [8, 24], 'lang_pa': [0, 24], 'hours_to_min_heldN': [8, 12], 'kg_to_g_heldN': [12, 12], 'idioms_no_harm': [4, 10]} {'outputs_changed': [83, 85], 'kl_mean': 0.23903005228280266, 'kl_max': 5.0705084800720215}
+[ 15.9m] ALL DONE

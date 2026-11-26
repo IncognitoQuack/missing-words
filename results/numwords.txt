@@ -1,0 +1,9 @@
+BASE held-out unit करोड़ {'ask(train fmt)': '0.46', 'tool(UNSEEN fmt)': '0.01', 'func(UNSEEN fmt)': '0.00', 'eng-q(UNSEEN fmt)': '0.29'}
+100 loss 0.6946 153s
+200 loss 0.4737 286s
+300 loss 0.3413 420s
+400 loss 0.1938 556s
+PATCH held-out unit करोड़ {'ask(train fmt)': '0.24', 'tool(UNSEEN fmt)': '0.06', 'func(UNSEEN fmt)': '0.08', 'eng-q(UNSEEN fmt)': '0.23'}
+PATCH trained unit लाख {'ask(train fmt)': '0.91', 'tool(UNSEEN fmt)': '0.89', 'func(UNSEEN fmt)': '0.82', 'eng-q(UNSEEN fmt)': '0.75'}
+COMPOSE base  {'ask(train fmt)': '0.43 सवा:11/20 साढ़े:12/20 पौने:3/20', 'tool(UNSEEN fmt)': '0.32 सवा:4/20 साढ़े:14/20 पौने:1/20', 'func(UNSEEN fmt)': '0.17 सवा:1/20 साढ़े:8/20 पौने:1/20', 'eng-q(UNSEEN fmt)': '0.12 सवा:0/20 साढ़े:5/20 पौने:2/20'}
+COMPOSE both patches {'ask(train fmt)': '0.32 सवा:9/20 साढ़े:9/20 पौने:1/20', 'tool(UNSEEN fmt)': '0.30 सवा:7/20 साढ़े:10/20 पौने:1/20', 'func(UNSEEN fmt)': '0.20 सवा:3/20 साढ़े:9/20 पौने:0/20', 'eng-q(UNSEEN fmt)': '0.22 सवा:2/20 साढ़े:11/20 पौने:0/20'}

@@ -1,0 +1,84 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/1951 [00:00<?, ?it/s]Loading weights:   1%|          | 20/1951 [00:00<00:10, 177.10it/s]Loading weights:   3%|▎         | 54/1951 [00:00<00:07, 262.09it/s]Loading weights:   4%|▍         | 81/1951 [00:00<00:10, 170.36it/s]Loading weights:   5%|▌         | 101/1951 [00:00<00:10, 170.86it/s]Loading weights:   7%|▋         | 132/1951 [00:00<00:08, 203.59it/s]Loading weights:   8%|▊         | 158/1951 [00:00<00:08, 217.65it/s]Loading weights:   9%|▉         | 185/1951 [00:00<00:08, 216.64it/s]Loading weights:  11%|█         | 218/1951 [00:01<00:07, 247.02it/s]Loading weights:  13%|█▎        | 251/1951 [00:01<00:06, 268.22it/s]Loading weights:  14%|█▍        | 279/1951 [00:01<00:06, 262.91it/s]Loading weights:  16%|█▌        | 317/1951 [00:01<00:05, 295.60it/s]Loading weights:  18%|█▊        | 348/1951 [00:01<00:05, 289.00it/s]Loading weights:  19%|█▉        | 380/1951 [00:01<00:05, 290.97it/s]Loading weights:  21%|██▏       | 415/1951 [00:01<00:05, 306.55it/s]Loading weights:  23%|██▎       | 448/1951 [00:01<00:04, 310.20it/s]Loading weights:  25%|██▍       | 481/1951 [00:01<00:04, 311.22it/s]Loading weights:  26%|██▋       | 513/1951 [00:02<00:05, 267.07it/s]Loading weights:  29%|██▉       | 565/1951 [00:02<00:04, 313.86it/s]Loading weights:  31%|███       | 601/1951 [00:02<00:04, 323.41it/s]Loading weights:  33%|███▎      | 635/1951 [00:02<00:04, 304.16it/s]Loading weights:  35%|███▍      | 676/1951 [00:02<00:03, 328.71it/s]Loading weights:  36%|███▋      | 710/1951 [00:02<00:04, 309.24it/s]Loading weights:  39%|███▊      | 752/1951 [00:02<00:03, 333.86it/s]Loading weights:  39%|███▊      | 752/1951 [00:19<00:03, 333.86it/s]Loading weights:  39%|███▊      | 755/1951 [00:24<04:45,  4.19it/s] Loading weights:  39%|███▉      | 758/1951 [00:24<04:35,  4.32it/s]Loading weights:  40%|████      | 783/1951 [00:24<03:01,  6.43it/s]Loading weights:  41%|████      | 803/1951 [00:25<02:13,  8.61it/s]Loading weights:  42%|████▏     | 819/1951 [00:25<01:44, 10.88it/s]Loading weights:  43%|████▎     | 832/1951 [00:25<01:25, 13.05it/s]Loading weights:  43%|████▎     | 843/1951 [00:26<01:10, 15.61it/s]Loading weights:  44%|████▎     | 852/1951 [00:26<01:00, 18.17it/s]Loading weights:  44%|████▍     | 860/1951 [00:26<00:51, 21.25it/s]Loading weights:  44%|████▍     | 868/1951 [00:26<00:43, 24.82it/s]Loading weights:  45%|████▍     | 876/1951 [00:26<00:37, 28.95it/s]Loading weights:  45%|████▌     | 883/1951 [00:26<00:33, 31.61it/s]Loading weights:  46%|████▌     | 894/1951 [00:26<00:26, 39.99it/s]Loading weights:  46%|████▌     | 901/1951 [00:27<00:25, 41.18it/s]Loading weights:  47%|████▋     | 910/1951 [00:27<00:24, 42.03it/s]Loading weights:  47%|████▋     | 922/1951 [00:27<00:19, 51.52it/s]Loading weights:  48%|████▊     | 929/1951 [00:27<00:22, 45.96it/s]Loading weights:  48%|████▊     | 939/1951 [00:27<00:18, 54.33it/s]Loading weights:  48%|████▊     | 946/1951 [00:27<00:20, 49.31it/s]Loading weights:  49%|████▉     | 956/1951 [00:28<00:17, 58.01it/s]Loading weights:  49%|████▉     | 963/1951 [00:28<00:19, 52.00it/s]Loading weights:  50%|████▉     | 973/1951 [00:28<00:15, 61.63it/s]Loading weights:  50%|█████     | 981/1951 [00:28<00:19, 48.72it/s]Loading weights:  51%|█████     | 996/1951 [00:28<00:14, 64.07it/s]Loading weights:  51%|█████▏    | 1004/1951 [00:28<00:15, 59.51it/s]Loading weights:  52%|█████▏    | 1011/1951 [00:28<00:15, 60.23it/s]Loading weights:  52%|█████▏    | 1018/1951 [00:29<00:26, 34.79it/s]Loading weights:  53%|█████▎    | 1027/1951 [00:29<00:25, 36.96it/s]Loading weights:  53%|█████▎    | 1032/1951 [00:29<00:31, 29.52it/s]Loading weights:  53%|█████▎    | 1041/1951 [00:30<00:27, 33.57it/s]Loading weights:  54%|█████▎    | 1046/1951 [00:30<00:32, 27.51it/s]Loading weights:  54%|█████▍    | 1055/1951 [00:30<00:28, 31.58it/s]Loading weights:  54%|█████▍    | 1059/1951 [00:30<00:36, 24.78it/s]Loading weights:  55%|█████▍    | 1069/1951 [00:31<00:28, 31.16it/s]Loading weights:  55%|█████▍    | 1073/1951 [00:31<00:35, 24.89it/s]Loading weights:  55%|█████▌    | 1080/1951 [00:31<00:28, 31.02it/s]Loading weights:  56%|█████▌    | 1085/1951 [00:32<00:40, 21.61it/s]Loading weights:  56%|█████▌    | 1097/1951 [00:32<00:28, 30.10it/s]Loading weights:  56%|█████▋    | 1101/1951 [00:32<00:34, 24.46it/s]Loading weights:  57%|█████▋    | 1110/1951 [00:32<00:28, 29.14it/s]Loading weights:  57%|█████▋    | 1114/1951 [00:33<00:35, 23.73it/s]Loading weights:  58%|█████▊    | 1125/1951 [00:33<00:26, 30.86it/s]Loading weights:  58%|█████▊    | 1129/1951 [00:33<00:33, 24.88it/s]Loading weights:  58%|█████▊    | 1139/1951 [00:33<00:26, 30.67it/s]Loading weights:  59%|█████▊    | 1143/1951 [00:34<00:32, 24.70it/s]Loading weights:  59%|█████▉    | 1150/1951 [00:34<00:25, 30.92it/s]Loading weights:  59%|█████▉    | 1155/1951 [00:34<00:37, 21.42it/s]Loading weights:  60%|█████▉    | 1167/1951 [00:34<00:26, 29.91it/s]Loading weights:  60%|██████    | 1171/1951 [00:35<00:31, 24.40it/s]Loading weights:  61%|██████    | 1181/1951 [00:35<00:30, 25.63it/s]Loading weights:  61%|██████    | 1185/1951 [00:35<00:29, 25.73it/s]Loading weights:  61%|██████    | 1194/1951 [00:35<00:25, 30.22it/s]Loading weights:  61%|██████▏   | 1198/1951 [00:36<00:30, 24.32it/s]Loading weights:  62%|██████▏   | 1209/1951 [00:36<00:23, 31.62it/s]Loading weights:  62%|██████▏   | 1213/1951 [00:36<00:29, 25.05it/s]Loading weights:  63%|██████▎   | 1223/1951 [00:36<00:24, 29.30it/s]Loading weights:  63%|██████▎   | 1227/1951 [00:37<00:30, 23.89it/s]Loading weights:  63%|██████▎   | 1236/1951 [00:37<00:33, 21.23it/s]Loading weights:  64%|██████▍   | 1251/1951 [00:38<00:25, 27.46it/s]Loading weights:  64%|██████▍   | 1254/1951 [00:38<00:26, 26.33it/s]Loading weights:  65%|██████▍   | 1265/1951 [00:38<00:21, 32.56it/s]Loading weights:  65%|██████▌   | 1269/1951 [00:38<00:26, 26.15it/s]Loading weights:  66%|██████▌   | 1279/1951 [00:38<00:21, 31.55it/s]Loading weights:  66%|██████▌   | 1283/1951 [00:39<00:26, 25.34it/s]Loading weights:  66%|██████▌   | 1288/1951 [00:39<00:26, 24.94it/s]Loading weights:  69%|██████▊   | 1338/1951 [00:39<00:06, 93.81it/s]Loading weights:  71%|███████   | 1384/1951 [00:39<00:03, 153.90it/s]Loading weights:  73%|███████▎  | 1430/1951 [00:39<00:02, 207.11it/s]Loading weights:  76%|███████▋  | 1488/1951 [00:39<00:01, 282.63it/s]Loading weights:  79%|███████▉  | 1538/1951 [00:40<00:01, 324.36it/s]Loading weights:  81%|████████  | 1585/1951 [00:40<00:01, 345.74it/s]Loading weights:  84%|████████▎ | 1631/1951 [00:40<00:00, 371.39it/s]Loading weights:  87%|████████▋ | 1690/1951 [00:40<00:00, 427.39it/s]Loading weights:  89%|████████▉ | 1743/1951 [00:40<00:00, 447.42it/s]Loading weights:  92%|█████████▏| 1791/1951 [00:40<00:00, 415.12it/s]Loading weights:  95%|█████████▍| 1851/1951 [00:40<00:00, 410.59it/s]Loading weights: 100%|█████████▉| 1946/1951 [00:40<00:00, 545.54it/s]Loading weights: 100%|██████████| 1951/1951 [00:40<00:00, 47.62it/s] 
+[  3.2m] model.language_model.embed_tokens (262144, 1536) scale 39.25
+[  3.2m] model.language_model.embed_tokens_per_layer (262144, 8960) scale 16.0
+[  3.2m] loaded google/gemma-4-E2B-it GPU GB 10.2
+Generating train split:   0%|          | 0/15011 [00:00<?, ? examples/s]Generating train split: 100%|██████████| 15011/15011 [00:00<00:00, 134031.65 examples/s]Generating train split: 100%|██████████| 15011/15011 [00:00<00:00, 133698.08 examples/s]
+[  7.0m] RAW {'frac_dev|ask': [20, 120], 'frac_dev|tool': [37, 120], 'frac_rom|ask': [0, 120], 'frac_rom|tool': [1, 120], 'whole_dev_2_20|ask': [35, 50], 'whole_dev_2_20|tool': [45, 50], 'whole_rom_2_20|ask': [9, 50], 'whole_rom_2_20|tool': [25, 50], 'whole_dev_21_99|ask': [19, 80], 'whole_dev_21_99|tool': [15, 80]}
+[  8.2m] DONE base [76, 288] {'romanised': [1, 48], 'kg_to_g': [5, 27], 'hours_to_min': [5, 29], 'clock': [17, 32], 'lang_mr': [1, 24], 'lang_gu': [5, 24], 'lang_bn': [5, 24], 'lang_ur': [5, 24], 'lang_pa': [3, 24], 'idioms_no_harm': [6, 10]} None
+[  9.3m] DONE base+lexicon [76, 288] {'romanised': [9, 48], 'kg_to_g': [5, 27], 'hours_to_min': [5, 29], 'clock': [17, 32], 'lang_mr': [5, 24], 'lang_gu': [6, 24], 'lang_bn': [5, 24], 'lang_ur': [3, 24], 'lang_pa': [4, 24], 'idioms_no_harm': [6, 10]} None
+[ 11.9m] DONE glossary [92, 288] {'romanised': [10, 48], 'kg_to_g': [5, 27], 'hours_to_min': [3, 29], 'clock': [15, 32], 'lang_mr': [4, 24], 'lang_gu': [4, 24], 'lang_bn': [7, 24], 'lang_ur': [8, 24], 'lang_pa': [3, 24], 'idioms_no_harm': [5, 10]} None
+[ 14.3m] DONE glossary+lexicon [92, 288] {'romanised': [14, 48], 'kg_to_g': [5, 27], 'hours_to_min': [3, 29], 'clock': [15, 32], 'lang_mr': [7, 24], 'lang_gu': [6, 24], 'lang_bn': [7, 24], 'lang_ur': [3, 24], 'lang_pa': [6, 24], 'idioms_no_harm': [5, 10]} None
+[ 16.0m] DONE fewshot [63, 288] {'romanised': [13, 48], 'kg_to_g': [7, 27], 'hours_to_min': [2, 29], 'clock': [14, 32], 'lang_mr': [3, 24], 'lang_gu': [7, 24], 'lang_bn': [6, 24], 'lang_ur': [5, 24], 'lang_pa': [4, 24], 'idioms_no_harm': [5, 10]} None
+/content/repair.py:183: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:820.)
+  if s%40==0: log(which,s,'loss',round(float(l)*acc,4),f'{time.time()-t:.0f}s')
+[ 19.2m] ple 40 loss 3.9168 184s
+[ 22.3m] ple 80 loss 1.1206 370s
+[ 25.4m] ple 120 loss 0.2996 558s
+[ 28.5m] ple 160 loss 0.312 742s
+[ 29.9m] DONE row_ple_0 [234, 288] {'romanised': [20, 48], 'kg_to_g': [16, 27], 'hours_to_min': [0, 29], 'clock': [18, 32], 'lang_mr': [17, 24], 'lang_gu': [16, 24], 'lang_bn': [15, 24], 'lang_ur': [11, 24], 'lang_pa': [11, 24], 'hours_to_min_heldN': [0, 12], 'kg_to_g_heldN': [7, 12], 'idioms_no_harm': [4, 10]} {'max_abs_logprob': 0.0}
+[ 33.0m] ple 40 loss 1.9714 186s
+[ 36.0m] ple 80 loss 0.811 368s
+[ 39.1m] ple 120 loss 0.6517 552s
+[ 42.1m] ple 160 loss 0.3923 731s
+[ 43.5m] DONE row_ple_1 [221, 288] {'romanised': [20, 48], 'kg_to_g': [15, 27], 'hours_to_min': [0, 29], 'clock': [20, 32], 'lang_mr': [18, 24], 'lang_gu': [17, 24], 'lang_bn': [14, 24], 'lang_ur': [9, 24], 'lang_pa': [15, 24], 'hours_to_min_heldN': [0, 12], 'kg_to_g_heldN': [7, 12], 'idioms_no_harm': [3, 10]} {'max_abs_logprob': 0.0}
+[ 46.6m] ple 40 loss 1.7415 187s
+[ 49.7m] ple 80 loss 1.2165 371s
+[ 52.8m] ple 120 loss 0.4201 556s
+[ 55.9m] ple 160 loss 0.3066 743s
+[ 57.3m] DONE row_ple_2 [252, 288] {'romanised': [21, 48], 'kg_to_g': [16, 27], 'hours_to_min': [0, 29], 'clock': [19, 32], 'lang_mr': [18, 24], 'lang_gu': [17, 24], 'lang_bn': [17, 24], 'lang_ur': [12, 24], 'lang_pa': [16, 24], 'hours_to_min_heldN': [0, 12], 'kg_to_g_heldN': [7, 12], 'idioms_no_harm': [4, 10]} {'max_abs_logprob': 0.0}
+[ 60.4m] emb 40 loss 4.3087 186s
+[ 63.5m] emb 80 loss 1.3696 375s
+[ 66.7m] emb 120 loss 0.6127 565s
+[ 69.8m] emb 160 loss 0.4689 751s
+[ 71.2m] DONE row_emb_0 [178, 288] {'romanised': [13, 48], 'kg_to_g': [10, 27], 'hours_to_min': [2, 29], 'clock': [11, 32], 'lang_mr': [11, 24], 'lang_gu': [12, 24], 'lang_bn': [6, 24], 'lang_ur': [3, 24], 'lang_pa': [6, 24], 'hours_to_min_heldN': [1, 12], 'kg_to_g_heldN': [5, 12], 'idioms_no_harm': [4, 10]} {'max_abs_logprob': 0.0}
+[ 74.3m] emb 40 loss 1.9404 188s
+[ 77.4m] emb 80 loss 0.9753 372s
+[ 80.5m] emb 120 loss 0.8744 558s
+[ 83.5m] emb 160 loss 0.6046 739s
+[ 84.9m] DONE row_emb_1 [153, 288] {'romanised': [11, 48], 'kg_to_g': [9, 27], 'hours_to_min': [3, 29], 'clock': [15, 32], 'lang_mr': [11, 24], 'lang_gu': [12, 24], 'lang_bn': [7, 24], 'lang_ur': [2, 24], 'lang_pa': [6, 24], 'hours_to_min_heldN': [1, 12], 'kg_to_g_heldN': [5, 12], 'idioms_no_harm': [3, 10]} {'max_abs_logprob': 0.0}
+[ 88.1m] emb 40 loss 1.8061 189s
+[ 91.2m] emb 80 loss 1.3649 376s
+[ 94.3m] emb 120 loss 0.3961 563s
+[ 97.5m] emb 160 loss 0.5084 752s
+[ 98.9m] DONE row_emb_2 [175, 288] {'romanised': [14, 48], 'kg_to_g': [14, 27], 'hours_to_min': [4, 29], 'clock': [13, 32], 'lang_mr': [11, 24], 'lang_gu': [13, 24], 'lang_bn': [8, 24], 'lang_ur': [3, 24], 'lang_pa': [10, 24], 'hours_to_min_heldN': [2, 12], 'kg_to_g_heldN': [5, 12], 'idioms_no_harm': [3, 10]} {'max_abs_logprob': 0.0}
+[102.0m] both 40 loss 1.8727 186s
+[105.1m] both 80 loss 0.343 374s
+[108.3m] both 120 loss 0.2889 564s
+[111.4m] both 160 loss 0.2802 750s
+[112.8m] DONE row_both_0 [226, 288] {'romanised': [17, 48], 'kg_to_g': [20, 27], 'hours_to_min': [4, 29], 'clock': [27, 32], 'lang_mr': [14, 24], 'lang_gu': [14, 24], 'lang_bn': [9, 24], 'lang_ur': [6, 24], 'lang_pa': [8, 24], 'hours_to_min_heldN': [2, 12], 'kg_to_g_heldN': [8, 12], 'idioms_no_harm': [4, 10]} {'max_abs_logprob': 0.0}
+[115.9m] both 40 loss 0.937 188s
+[119.0m] both 80 loss 0.3045 371s
+[122.1m] both 120 loss 0.6042 557s
+[125.1m] both 160 loss 0.3768 739s
+[126.5m] DONE row_both_1 [200, 288] {'romanised': [17, 48], 'kg_to_g': [21, 27], 'hours_to_min': [4, 29], 'clock': [29, 32], 'lang_mr': [13, 24], 'lang_gu': [17, 24], 'lang_bn': [10, 24], 'lang_ur': [7, 24], 'lang_pa': [15, 24], 'hours_to_min_heldN': [2, 12], 'kg_to_g_heldN': [9, 12], 'idioms_no_harm': [4, 10]} {'max_abs_logprob': 0.0}
+[129.7m] both 40 loss 1.0013 189s
+[132.8m] both 80 loss 0.6459 376s
+[135.9m] both 120 loss 0.2633 562s
+[139.0m] both 160 loss 0.3899 751s
+[140.4m] DONE row_both_2 [197, 288] {'romanised': [12, 48], 'kg_to_g': [14, 27], 'hours_to_min': [4, 29], 'clock': [24, 32], 'lang_mr': [11, 24], 'lang_gu': [13, 24], 'lang_bn': [7, 24], 'lang_ur': [4, 24], 'lang_pa': [11, 24], 'hours_to_min_heldN': [2, 12], 'kg_to_g_heldN': [6, 12], 'idioms_no_harm': [4, 10]} {'max_abs_logprob': 0.0}
+[143.4m] ple 40 loss 1.8354 182s
+[146.4m] ple 80 loss 0.7077 362s
+[149.5m] ple 120 loss 0.4044 543s
+[152.5m] ple 160 loss 0.402 727s
+[155.5m] ple 200 loss 0.5696 904s
+[158.5m] ple 240 loss 0.7278 1083s
+[159.9m] DONE row_ple_keep_0 [227, 288] {'romanised': [21, 48], 'kg_to_g': [24, 27], 'hours_to_min': [22, 29], 'clock': [29, 32], 'lang_mr': [18, 24], 'lang_gu': [20, 24], 'lang_bn': [15, 24], 'lang_ur': [12, 24], 'lang_pa': [17, 24], 'hours_to_min_heldN': [6, 12], 'kg_to_g_heldN': [9, 12], 'idioms_no_harm': [3, 10]} {'max_abs_logprob': 0.0}
+[162.9m] ple 40 loss 1.3402 179s
+[165.9m] ple 80 loss 1.0425 363s
+[168.9m] ple 120 loss 0.3833 544s
+[172.0m] ple 160 loss 0.5681 727s
+[175.0m] ple 200 loss 0.6534 907s
+[178.0m] ple 240 loss 0.4011 1087s
+[179.4m] DONE row_ple_keep_1 [240, 288] {'romanised': [20, 48], 'kg_to_g': [20, 27], 'hours_to_min': [18, 29], 'clock': [29, 32], 'lang_mr': [18, 24], 'lang_gu': [19, 24], 'lang_bn': [15, 24], 'lang_ur': [11, 24], 'lang_pa': [16, 24], 'hours_to_min_heldN': [3, 12], 'kg_to_g_heldN': [8, 12], 'idioms_no_harm': [4, 10]} {'max_abs_logprob': 0.0}
+[182.3m] ple 40 loss 2.0212 178s
+[185.3m] ple 80 loss 0.7447 354s
+[188.2m] ple 120 loss 0.6326 532s
+[191.3m] ple 160 loss 0.4659 714s
+[194.2m] ple 200 loss 0.2634 893s
+[197.2m] ple 240 loss 0.5804 1072s
+[198.6m] DONE row_ple_keep_2 [234, 288] {'romanised': [19, 48], 'kg_to_g': [24, 27], 'hours_to_min': [22, 29], 'clock': [28, 32], 'lang_mr': [19, 24], 'lang_gu': [18, 24], 'lang_bn': [17, 24], 'lang_ur': [11, 24], 'lang_pa': [16, 24], 'hours_to_min_heldN': [5, 12], 'kg_to_g_heldN': [10, 12], 'idioms_no_harm': [4, 10]} {'max_abs_logprob': 0.0}
+/usr/local/lib/python3.13/dist-packages/peft/import_utils.py:195: UserWarning: Found an incompatible version of torchao. Found version 0.10.0, but only versions above 0.16.0 are supported. torchao support in PEFT is disabled; if you want to use a torchao-quantized model with PEFT, please upgrade torchao.
+  warnings.warn(
+[214.2m] DONE lora_0 [273, 288] {'romanised': [5, 48], 'kg_to_g': [22, 27], 'hours_to_min': [2, 29], 'clock': [31, 32], 'lang_mr': [6, 24], 'lang_gu': [5, 24], 'lang_bn': [8, 24], 'lang_ur': [7, 24], 'lang_pa': [0, 24], 'hours_to_min_heldN': [1, 12], 'kg_to_g_heldN': [8, 12], 'idioms_no_harm': [6, 10]} {'outputs_changed': [64, 85], 'kl_mean': 0.09291828598153977, 'kl_max': 1.6541788578033447}

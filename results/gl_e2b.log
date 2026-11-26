@@ -1,0 +1,28 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/1951 [00:00<?, ?it/s]Loading weights:  15%|█▌        | 298/1951 [00:00<00:00, 2970.46it/s]Loading weights:  31%|███       | 596/1951 [00:00<00:00, 2692.23it/s]Loading weights:  44%|████▍     | 867/1951 [00:01<00:02, 363.55it/s] Loading weights:  52%|█████▏    | 1023/1951 [00:02<00:02, 421.83it/s]Loading weights:  59%|█████▉    | 1148/1951 [00:02<00:01, 418.15it/s]Loading weights:  64%|██████▎   | 1242/1951 [00:02<00:01, 412.51it/s]Loading weights:  68%|██████▊   | 1318/1951 [00:02<00:01, 439.11it/s]Loading weights:  85%|████████▌ | 1666/1951 [00:02<00:00, 845.37it/s]Loading weights: 100%|██████████| 1951/1951 [00:02<00:00, 678.96it/s]
+[0.8m] threshold 3.064743995666504 Google tokens flagged None
+[2.8m] FLAGGED fail 837 of 7002
+[3.1m] RANDOM fail 92 of 4000
+[3.1m] RANDOM unflagged fail 77 of 3885
+[3.3m] REMEDY (merge pruning) still fail 33 of 837 merges removed 1135
+[3.3m] {'n_bad': 92, 'ple_kurtosis_low': 0.7318655155533799, 'emb_kurtosis_low': 0.30757698811801876, 'emb_kurtosis_high': 0.6924257932446264, 'magikarp': 0.4036591606960082, 'emb_norm_low': 0.7290869342708379, 'emb_cos_unused': 0.6680082105825286, 'emb_cos_google219': 0.6680082105825286}
+[4.6m] TOP-400 by embedding detectors, fails {'magikarp': (462, 1500), 'emb_norm_low': (28, 400), 'emb_cos_unused_high': (358, 400), 'emb_cos_google_high': (358, 400), 'emb_kurtosis_high': (522, 1500)}
+[4.6m] TOP-400 by per-layer kurtosis, fails 198
+[4.6m] {'GURMUKHI': (1, 8), 'MYANMAR': (0, 87), 'KATAKANA': (0, 6), 'LATIN': (384, 1830), 'CJK': (8, 35), 'THAI': (0, 68), 'GEORGIAN': (6, 59), 'TAMIL': (50, 681), 'GREEK': (5, 32), 'DEVANAGARI': (37, 917), 'ARMENIAN': (0, 5), 'ETHIOPIC': (12, 120), 'MALAYALAM': (31, 457), 'HEBREW': (2, 7), 'ORIYA': (0, 2), 'HIRAGANA': (0, 3), 'other': (10, 57), 'HANGUL': (1, 3), 'TELUGU': (34, 270), 'KANNADA': (26, 216), 'LAO': (0, 57), 'KHMER': (0, 148), 'BENGALI': (145, 1277), 'SYRIAC': (0, 2), 'MODIFIER': (0, 1), 'GUJARATI': (10, 129), 'THAANA': (1, 4), 'CYRILLIC': (29, 228), 'SINHALA': (3, 74), 'ARABIC': (42, 216), 'TIBETAN': (0, 3)}
+[4.7m] FIRST-400 fails by detector {'magikarp': 355}
+[4.8m] UNION broken 969 still failing after pruning 37 merges removed 1365
+[4.8m] ALL DONE
+Loading weights:   0%|          | 0/2076 [00:00<?, ?it/s]Loading weights:  15%|█▍        | 302/2076 [00:00<00:00, 3015.41it/s]Loading weights:  29%|██▉       | 604/2076 [00:00<00:00, 2787.05it/s]Loading weights:  43%|████▎     | 884/2076 [00:02<00:04, 269.46it/s] Loading weights:  50%|█████     | 1042/2076 [00:02<00:03, 286.09it/s]Loading weights:  55%|█████▌    | 1152/2076 [00:03<00:03, 291.76it/s]Loading weights:  59%|█████▉    | 1234/2076 [00:03<00:02, 296.55it/s]Loading weights:  63%|██████▎   | 1299/2076 [00:03<00:02, 290.99it/s]Loading weights:  65%|██████▌   | 1352/2076 [00:03<00:02, 286.02it/s]Loading weights:  67%|██████▋   | 1396/2076 [00:04<00:02, 288.41it/s]Loading weights:  72%|███████▏  | 1501/2076 [00:04<00:01, 389.46it/s]Loading weights:  88%|████████▊ | 1818/2076 [00:04<00:00, 832.01it/s]Loading weights: 100%|██████████| 2076/2076 [00:04<00:00, 471.46it/s]
+[0.3m] threshold 3.0548171997070312 Google tokens flagged 0.9771689497716894
+[0.7m] FLAGGED fail 334 of 1662
+[1.2m] RANDOM fail 12 of 4000
+[1.2m] RANDOM unflagged fail 6 of 3972
+[1.3m] GOOGLE219 old tokenizer fail 213 of 214
+[1.4m] REMEDY (merge pruning) still fail 2 of 334 merges removed 434
+[1.4m] {'n_bad': 12, 'ple_kurtosis_low': 0.7763916750250752, 'emb_kurtosis_low': 0.19113590772316952, 'emb_kurtosis_high': 0.8088640922768305, 'magikarp': 0.6607113005683718, 'emb_norm_low': 0.8423813105984621, 'emb_cos_unused': 0.8670386158475426, 'emb_cos_google219': 0.8676028084252758}
+[2.5m] TOP-400 by embedding detectors, fails {'magikarp': (293, 1500), 'emb_norm_low': (245, 400), 'emb_cos_unused_high': (262, 400), 'emb_cos_google_high': (262, 400), 'emb_kurtosis_high': (325, 1500)}
+[2.5m] TOP-400 by per-layer kurtosis, fails 191
+[2.5m] {'TAMIL': (13, 91), 'ARABIC': (13, 71), 'other': (3, 12), 'KANNADA': (1, 18), 'SYRIAC': (0, 2), 'LAO': (0, 11), 'TELUGU': (5, 27), 'DEVANAGARI': (7, 136), 'CYRILLIC': (9, 67), 'GUJARATI': (0, 10), 'THAI': (0, 4), 'HEBREW': (0, 2), 'CJK': (3, 18), 'GEORGIAN': (0, 4), 'HANGUL': (0, 1), 'MALAYALAM': (4, 54), 'ETHIOPIC': (1, 11), 'LATIN': (231, 842), 'BENGALI': (44, 254), 'SINHALA': (0, 4), 'KHMER': (0, 16), 'MYANMAR': (0, 7)}
+[2.5m] FIRST-400 fails by detector {'magikarp': 265}
+[2.6m] UNION broken 361 still failing after pruning 1 merges removed 474
+[2.6m] ALL DONE

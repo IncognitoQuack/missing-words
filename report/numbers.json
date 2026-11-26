@@ -1,0 +1,141 @@
+{
+ "rep_e4b.json:lora": [
+  0.977,
+  3
+ ],
+ "rep_e4b.json:row_both": [
+  0.89,
+  5
+ ],
+ "rep_e4b.json:row_ple": [
+  0.867,
+  5
+ ],
+ "rep_e4b.json:row_emb": [
+  0.803,
+  5
+ ],
+ "rep_e4b.json:fewshot": [
+  0.503,
+  1
+ ],
+ "rep_e4b.json:glossary": [
+  0.292,
+  1
+ ],
+ "rep_e4b.json:base": [
+  0.483,
+  1
+ ],
+ "rep_e2b.json:lora": [
+  0.943,
+  2
+ ],
+ "rep_e2b.json:row_both": [
+  0.721,
+  3
+ ],
+ "rep_e2b.json:row_ple": [
+  0.818,
+  3
+ ],
+ "rep_e2b.json:row_emb": [
+  0.586,
+  3
+ ],
+ "rep_e2b.json:fewshot": [
+  0.219,
+  1
+ ],
+ "rep_e2b.json:glossary": [
+  0.319,
+  1
+ ],
+ "rep_e2b.json:base": [
+  0.264,
+  1
+ ],
+ "prog_e4b": {
+  "secret1": 0.004,
+  "secret2": 0.007,
+  "n mod 7": 0.051,
+  "150-n": 0.424,
+  "n+0.37": 0.573,
+  "n*1.3": 0.676,
+  "n-0.6": 0.767,
+  "n^2": 0.809,
+  "n-20": 0.813,
+  "n+25": 0.829,
+  "n-0.25": 0.831,
+  "n mod 10": 0.836,
+  "3n-2": 0.84,
+  "reverse": 0.856,
+  "n-1": 0.864,
+  "2n+1": 0.887,
+  "digit sum": 0.918,
+  "n*10": 0.94,
+  "n/2": 0.958,
+  "100-n": 0.967,
+  "n+10": 0.978,
+  "n+1": 0.996,
+  "n-7": 0.996,
+  "n+3": 0.998,
+  "n*2": 1.0,
+  "n*3": 1.0
+ },
+ "rows_emb": 0.582,
+ "rows_ple": 0.504,
+ "rows_both": 0.918,
+ "abl_e4b": {
+  "hin_Latn": 0.149,
+  "eng_Latn": 0.186,
+  "yor_Latn": 0.2,
+  "ben_Beng": 0.227,
+  "hin_Deva": 0.242,
+  "zho_Hans": 0.282,
+  "spa_Latn": 0.28,
+  "jpn_Jpan": 0.352,
+  "kor_Hang": 0.384,
+  "arb_Arab": 0.352,
+  "urd_Arab": 0.328,
+  "swh_Latn": 0.433,
+  "fra_Latn": 0.387,
+  "deu_Latn": 0.36,
+  "rus_Cyrl": 0.432,
+  "mar_Deva": 0.394,
+  "vie_Latn": 0.461,
+  "tam_Taml": 0.502,
+  "tha_Thai": 0.56,
+  "tel_Telu": 0.474,
+  "pan_Guru": 0.559,
+  "guj_Gujr": 0.429,
+  "mal_Mlym": 0.585,
+  "kan_Knda": 0.755
+ },
+ "abl_e2b": {
+  "hin_Latn": 0.215,
+  "eng_Latn": 0.218,
+  "yor_Latn": 0.24,
+  "ben_Beng": 0.304,
+  "hin_Deva": 0.317,
+  "zho_Hans": 0.289,
+  "spa_Latn": 0.32,
+  "jpn_Jpan": 0.354,
+  "kor_Hang": 0.341,
+  "arb_Arab": 0.391,
+  "urd_Arab": 0.465,
+  "swh_Latn": 0.379,
+  "fra_Latn": 0.442,
+  "deu_Latn": 0.472,
+  "rus_Cyrl": 0.41,
+  "mar_Deva": 0.47,
+  "vie_Latn": 0.47,
+  "tam_Taml": 0.601,
+  "tha_Thai": 0.555,
+  "tel_Telu": 0.762,
+  "pan_Guru": 0.707,
+  "guj_Gujr": 0.873,
+  "mal_Mlym": 0.92,
+  "kan_Knda": 1.06
+ }
+}

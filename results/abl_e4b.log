@@ -1,0 +1,61 @@
+Loading weights:   0%|          | 0/2076 [00:00<?, ?it/s]Loading weights:  14%|█▍        | 298/2076 [00:00<00:00, 2978.92it/s]Loading weights:  29%|██▊       | 596/2076 [00:00<00:00, 2791.54it/s]Loading weights:  42%|████▏     | 876/2076 [00:02<00:04, 269.59it/s] Loading weights:  50%|████▉     | 1034/2076 [00:02<00:03, 281.91it/s]Loading weights:  55%|█████▌    | 1143/2076 [00:03<00:03, 294.41it/s]Loading weights:  59%|█████▉    | 1226/2076 [00:03<00:02, 292.25it/s]Loading weights:  62%|██████▏   | 1290/2076 [00:03<00:02, 295.55it/s]Loading weights:  65%|██████▍   | 1344/2076 [00:03<00:02, 292.69it/s]Loading weights:  67%|██████▋   | 1390/2076 [00:04<00:02, 292.23it/s]Loading weights:  69%|██████▉   | 1431/2076 [00:04<00:02, 305.09it/s]Loading weights:  83%|████████▎ | 1733/2076 [00:04<00:00, 735.46it/s]Loading weights:  99%|█████████▉| 2058/2076 [00:04<00:00, 1199.97it/s]Loading weights: 100%|██████████| 2076/2076 [00:04<00:00, 471.41it/s] 
+[  0.2m] model.language_model.embed_tokens (262144, 2560) scale 50.5
+[  0.2m] model.language_model.embed_tokens_per_layer (262144, 10752) scale 16.0
+[  0.2m] loaded google/gemma-4-E4B-it GPU GB 15.9
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Generating test split:   0%|          | 0/900 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 900/900 [00:00<00:00, 103526.14 examples/s]
+Generating test split:   0%|          | 0/900 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 900/900 [00:00<00:00, 107237.68 examples/s]
+Generating test split:   0%|          | 0/900 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 900/900 [00:00<00:00, 137603.38 examples/s]
+Generating test split:   0%|          | 0/900 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 900/900 [00:00<00:00, 139872.30 examples/s]
+Generating test split:   0%|          | 0/900 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 900/900 [00:00<00:00, 111560.53 examples/s]
+Generating test split:   0%|          | 0/900 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 900/900 [00:00<00:00, 123535.48 examples/s]
+Generating test split:   0%|          | 0/900 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 900/900 [00:00<00:00, 121856.60 examples/s]
+Generating test split:   0%|          | 0/900 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 900/900 [00:00<00:00, 162095.23 examples/s]
+Generating test split:   0%|          | 0/900 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 900/900 [00:00<00:00, 41876.50 examples/s]
+Generating test split:   0%|          | 0/900 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 900/900 [00:00<00:00, 50504.71 examples/s]
+Generating test split:   0%|          | 0/900 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 900/900 [00:00<00:00, 43268.50 examples/s]
+Generating test split:   0%|          | 0/900 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 900/900 [00:00<00:00, 117740.36 examples/s]
+Generating test split:   0%|          | 0/900 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 900/900 [00:00<00:00, 116339.68 examples/s]
+Generating test split:   0%|          | 0/900 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 900/900 [00:00<00:00, 116242.95 examples/s]
+Generating test split:   0%|          | 0/900 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 900/900 [00:00<00:00, 45098.43 examples/s]
+Generating test split:   0%|          | 0/900 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 900/900 [00:00<00:00, 42552.97 examples/s]
+Generating test split:   0%|          | 0/900 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 900/900 [00:00<00:00, 41033.46 examples/s]
+Generating test split:   0%|          | 0/900 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 900/900 [00:00<00:00, 39336.35 examples/s]
+Generating test split:   0%|          | 0/900 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 900/900 [00:00<00:00, 33306.63 examples/s]
+Generating test split:   0%|          | 0/900 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 900/900 [00:00<00:00, 39003.07 examples/s]
+Generating test split:   0%|          | 0/900 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 900/900 [00:00<00:00, 40242.14 examples/s]
+Generating test split:   0%|          | 0/900 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 900/900 [00:00<00:00, 41903.00 examples/s]
+Generating test split:   0%|          | 0/900 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 900/900 [00:00<00:00, 35872.60 examples/s]
+Generating test split:   0%|          | 0/900 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 900/900 [00:00<00:00, 36541.05 examples/s]
+[  1.0m] shared 60
+[  3.5m] orig
+[  5.9m] mean
+[  8.4m] mean_lower
+[ 10.8m] mean_upper
+[ 13.2m] perm
+[ 15.7m] zero
+[ 15.7m] eng_Latn nll/tok 4.243 mean +0.811/tok (19%) mean_lower +0.186/tok (4%) mean_upper +0.542/tok (13%) perm +1.355/tok (32%) zero +1.749/tok (41%)
+[ 15.7m] fra_Latn nll/tok 3.536 mean +1.358/tok (38%) mean_lower +0.118/tok (3%) mean_upper +1.051/tok (30%) perm +2.472/tok (70%) zero +3.785/tok (107%)
+[ 15.7m] deu_Latn nll/tok 3.845 mean +1.361/tok (35%) mean_lower +0.108/tok (3%) mean_upper +1.100/tok (29%) perm +2.750/tok (72%) zero +4.508/tok (117%)
+[ 15.7m] spa_Latn nll/tok 4.131 mean +1.176/tok (28%) mean_lower +0.108/tok (3%) mean_upper +0.953/tok (23%) perm +2.269/tok (55%) zero +4.239/tok (103%)
+[ 15.7m] vie_Latn nll/tok 3.818 mean +1.730/tok (45%) mean_lower +0.212/tok (6%) mean_upper +1.625/tok (43%) perm +2.821/tok (74%) zero +4.213/tok (110%)
+[ 15.7m] swh_Latn nll/tok 4.013 mean +1.697/tok (42%) mean_lower +0.165/tok (4%) mean_upper +1.523/tok (38%) perm +3.360/tok (84%) zero +4.345/tok (108%)
+[ 15.7m] yor_Latn nll/tok 4.836 mean +0.970/tok (20%) mean_lower +0.104/tok (2%) mean_upper +1.053/tok (22%) perm +1.911/tok (40%) zero +2.873/tok (59%)
+[ 15.7m] hin_Latn nll/tok 4.964 mean +0.732/tok (15%) mean_lower +0.094/tok (2%) mean_upper +0.565/tok (11%) perm +1.657/tok (33%) zero +1.464/tok (29%)
+[ 15.7m] rus_Cyrl nll/tok 3.686 mean +1.553/tok (42%) mean_lower +0.259/tok (7%) mean_upper +1.372/tok (37%) perm +3.082/tok (84%) zero +5.605/tok (152%)
+[ 15.7m] arb_Arab nll/tok 3.963 mean +1.371/tok (35%) mean_lower +0.134/tok (3%) mean_upper +1.172/tok (30%) perm +2.657/tok (67%) zero +4.344/tok (110%)
+[ 15.7m] urd_Arab nll/tok 4.593 mean +1.519/tok (33%) mean_lower +0.330/tok (7%) mean_upper +1.168/tok (25%) perm +2.513/tok (55%) zero +3.875/tok (84%)
+[ 15.7m] zho_Hans nll/tok 4.498 mean +1.260/tok (28%) mean_lower +0.136/tok (3%) mean_upper +0.967/tok (21%) perm +2.188/tok (49%) zero +2.479/tok (55%)
+[ 15.7m] jpn_Jpan nll/tok 4.197 mean +1.464/tok (35%) mean_lower +0.059/tok (1%) mean_upper +1.271/tok (30%) perm +2.525/tok (60%) zero +2.858/tok (68%)
+[ 15.7m] kor_Hang nll/tok 4.010 mean +1.529/tok (38%) mean_lower +0.089/tok (2%) mean_upper +1.337/tok (33%) perm +2.754/tok (69%) zero +3.410/tok (85%)
+[ 15.7m] tha_Thai nll/tok 3.426 mean +1.900/tok (55%) mean_lower +0.235/tok (7%) mean_upper +1.912/tok (56%) perm +3.096/tok (90%) zero +3.232/tok (94%)
+[ 15.7m] hin_Deva nll/tok 4.330 mean +1.049/tok (24%) mean_lower +0.158/tok (4%) mean_upper +0.798/tok (18%) perm +2.367/tok (55%) zero +3.706/tok (86%)
+[ 15.7m] mar_Deva nll/tok 4.935 mean +1.910/tok (39%) mean_lower +0.307/tok (6%) mean_upper +1.741/tok (35%) perm +3.419/tok (69%) zero +5.151/tok (104%)
+[ 15.7m] ben_Beng nll/tok 5.605 mean +1.267/tok (23%) mean_lower +0.112/tok (2%) mean_upper +1.180/tok (21%) perm +2.508/tok (45%) zero +2.848/tok (51%)
+[ 15.7m] tam_Taml nll/tok 4.832 mean +2.250/tok (47%) mean_lower +0.380/tok (8%) mean_upper +2.058/tok (43%) perm +4.324/tok (89%) zero +4.301/tok (89%)
+[ 15.7m] tel_Telu nll/tok 3.969 mean +1.801/tok (45%) mean_lower +0.407/tok (10%) mean_upper +1.867/tok (47%) perm +4.101/tok (103%) zero +3.828/tok (96%)
+[ 15.7m] guj_Gujr nll/tok 4.022 mean +1.646/tok (41%) mean_lower +0.373/tok (9%) mean_upper +1.553/tok (39%) perm +3.495/tok (87%) zero +3.473/tok (86%)
+[ 15.7m] pan_Guru nll/tok 3.108 mean +1.694/tok (55%) mean_lower +0.602/tok (19%) mean_upper +1.294/tok (42%) perm +4.674/tok (150%) zero +2.832/tok (91%)
+[ 15.7m] mal_Mlym nll/tok 3.900 mean +2.208/tok (57%) mean_lower +0.626/tok (16%) mean_upper +1.827/tok (47%) perm +4.209/tok (108%) zero +4.727/tok (121%)
+[ 15.7m] kan_Knda nll/tok 3.736 mean +2.783/tok (75%) mean_lower +1.107/tok (30%) mean_upper +1.736/tok (46%) perm +5.620/tok (150%) zero +4.790/tok (128%)
+[ 15.7m] ALL DONE

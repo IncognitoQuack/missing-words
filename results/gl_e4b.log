@@ -1,0 +1,35 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/2076 [00:00<?, ?it/s]Loading weights:  15%|█▍        | 305/2076 [00:00<00:00, 3044.15it/s]Loading weights:  29%|██▉       | 610/2076 [00:00<00:00, 2880.58it/s]Loading weights:  43%|████▎     | 899/2076 [00:02<00:04, 275.04it/s] Loading weights:  51%|█████     | 1062/2076 [00:02<00:03, 292.58it/s]Loading weights:  57%|█████▋    | 1175/2076 [00:03<00:03, 299.56it/s]Loading weights:  61%|██████    | 1259/2076 [00:03<00:02, 297.96it/s]Loading weights:  64%|██████▍   | 1325/2076 [00:03<00:02, 295.96it/s]Loading weights:  66%|██████▋   | 1379/2076 [00:03<00:02, 292.96it/s]Loading weights:  69%|██████▊   | 1425/2076 [00:04<00:02, 303.49it/s]Loading weights:  86%|████████▌ | 1776/2076 [00:04<00:00, 738.45it/s]Loading weights: 100%|██████████| 2076/2076 [00:04<00:00, 484.62it/s]
+[1.3m] threshold 3.0548171997070312 Google tokens flagged 0.9771689497716894
+[1.6m] FLAGGED fail 334 of 1662
+[2.1m] RANDOM fail 12 of 4000
+[2.1m] RANDOM unflagged fail 6 of 3972
+[2.2m] GOOGLE219 old tokenizer fail 213 of 214
+[2.3m] REMEDY (merge pruning) still fail 2 of 334 merges removed 434
+[2.3m] {'n_bad': 12, 'ple_kurtosis_low': 0.7763916750250752, 'emb_kurtosis_low': 0.19113590772316952, 'emb_kurtosis_high': 0.8088640922768305, 'emb_norm_low': 0.8423813105984621, 'emb_cos_unused': 0.8670386158475426, 'emb_cos_google219': 0.8676028084252758}
+[2.5m] TOP-400 by embedding detectors, fails {'emb_norm_low': (1, 32), 'emb_cos_unused_high': (0, 0), 'emb_cos_google_high': (0, 0), 'emb_kurtosis_high': (208, 400)}
+[2.5m] TOP-400 by per-layer kurtosis, fails 191
+[2.5m] {'LAO': (0, 11), 'other': (3, 12), 'CJK': (3, 18), 'MALAYALAM': (4, 54), 'BENGALI': (44, 254), 'HEBREW': (0, 2), 'ARABIC': (13, 71), 'SINHALA': (0, 4), 'HANGUL': (0, 1), 'GEORGIAN': (0, 4), 'GUJARATI': (0, 10), 'TAMIL': (13, 91), 'MYANMAR': (0, 7), 'LATIN': (231, 842), 'DEVANAGARI': (7, 136), 'SYRIAC': (0, 2), 'KHMER': (0, 16), 'KANNADA': (1, 18), 'CYRILLIC': (9, 67), 'THAI': (0, 4), 'ETHIOPIC': (1, 11), 'TELUGU': (5, 27)}
+Traceback (most recent call last):
+  File "/content/glitch_official.py", line 59, in <module>
+    json.dump(R,open(OUT,'w'),ensure_ascii=False); log('ALL DONE')
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/json/__init__.py", line 181, in dump
+    for chunk in iterable:
+                 ^^^^^^^^
+  File "/usr/lib/python3.13/json/encoder.py", line 435, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/usr/lib/python3.13/json/encoder.py", line 409, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.13/json/encoder.py", line 409, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.13/json/encoder.py", line 328, in _iterencode_list
+    yield from chunks
+  File "/usr/lib/python3.13/json/encoder.py", line 328, in _iterencode_list
+    yield from chunks
+  File "/usr/lib/python3.13/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python3.13/json/encoder.py", line 182, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+                    f'is not JSON serializable')
+TypeError: Object of type int64 is not JSON serializable
