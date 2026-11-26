@@ -62,3 +62,7 @@ Two small models, one family of arithmetic rules and one family of quantity prom
   note         = {Report, frozen protocol, code and raw results}
 }
 ```
+
+## Licence
+
+Code and results: MIT (see `LICENSE`). The Gemma 4 weights are not included and remain under Google's Gemma terms.
