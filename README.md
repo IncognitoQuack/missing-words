@@ -2,6 +2,10 @@
 
 Gemma 4 E2B and E4B give every token two learnt tables, an input embedding and a per-layer embedding (PLE) row that every decoder layer reads again. This repository asks what one token's rows can hold when every other weight is frozen, under a protocol that was frozen and hashed before the main runs.
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/IncognitoQuack/missing-words/blob/main/notebook/missing_words_demo.ipynb)
+
+**In short:** training only one token's two rows, with every weight frozen, installs an arithmetic rule that works on unseen numbers and unseen question formats (19 of 24 rules), while a ruleless lookup table stays below 1%. The same patch repairs Hindi fraction words with exactly zero change on unrelated text, but it is less accurate than LoRA and fails two of our five pre-registered gates; both failures are reported below.
+
 **Report:** [`report/report.pdf`](report/report.pdf) (5 pages). **Try it:** [`notebook/missing_words_demo.ipynb`](notebook/missing_words_demo.ipynb), free Colab T4, about 15 minutes.
 
 ## Results (official `google/gemma-4-E4B-it` and `E2B-it` weights)
@@ -45,4 +49,16 @@ The first rescores every gate from `results/`; the second redraws the figures. B
 
 ## Limits
 
-Two small models, one family of arithmetic rules and one family of quantity prompts. At most 5 seeds; E2B programs use 3 seeds and 8 rules. The Hindi items are listed in `HINDI_CHECK.md` for native-speaker checking. Ablating a table after training is not the same as training without it. See the report for the rest.
+Two small models, one family of arithmetic rules and one family of quantity prompts. At most 5 seeds; E2B programs use 3 seeds and 8 rules. The Hindi items in `HINDI_CHECK.md` were checked by one native speaker, the author: one idiom item (C9) was wrong and is excluded (amendment A12). Ablating a table after training is not the same as training without it. See the report for the rest.
+
+## How to cite
+
+```bibtex
+@misc{mathur2026missingwords,
+  author       = {Sanjit Mathur},
+  title        = {Missing Words: what one token's rows can hold in {Gemma 4}},
+  year         = {2026},
+  howpublished = {\url{https://github.com/IncognitoQuack/missing-words}},
+  note         = {Report, frozen protocol, code and raw results}
+}
+```
