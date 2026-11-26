@@ -45,4 +45,4 @@ The first rescores every gate from `results/`; the second redraws the figures. B
 
 ## Limits
 
-Two small models, one family of arithmetic rules and one family of quantity prompts. At most 5 seeds; E2B programs use 3 seeds and 8 rules. The Hindi items have been checked by one native speaker. Ablating a table after training is not the same as training without it. See the report for the rest.
+Two small models, one family of arithmetic rules and one family of quantity prompts. At most 5 seeds; E2B programs use 3 seeds and 8 rules. The Hindi items are listed in `HINDI_CHECK.md` for native-speaker checking. Ablating a table after training is not the same as training without it. See the report for the rest.
